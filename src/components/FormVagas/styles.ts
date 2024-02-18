@@ -9,13 +9,14 @@ export const Formulario = styled.form`
   border-radius: 12px;
   margin-top: 40px;
 `
+
 export const Botao = styled.button`
   background-color: ${variaveis.corPrincipal};
   border: 1px solid ${variaveis.corPrincipal};
   height: 40px;
   padding: 0 16px;
   font-size: 18px;
-  color: ${variaveis.corPrincipal};
+  color: ${variaveis.corSecundaria};
   margin-left: 8px;
   cursor: pointer;
 `

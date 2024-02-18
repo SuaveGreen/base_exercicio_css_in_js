@@ -27,10 +27,10 @@ export const MainFormulario = styled.form`
   }
 `
 
-export const FormSecundario = styled.form`
-  position: relative;
-  color: #eee;
-`
+// export const FormSecundario = styled.form`
+//   position: relative;
+//   color: ${variaveis.corSecundaria};
+// `
 
 export const HeroTitle = styled.div`
   font-family: Gloock, serif;
