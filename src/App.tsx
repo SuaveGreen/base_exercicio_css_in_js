@@ -1,4 +1,4 @@
-import { Container, MainContainer } from './styles'
+import EstiloGlobal, { Container, MainContainer } from './styles'
 
 import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
@@ -6,7 +6,7 @@ import Cabecalho from './components/Cabecalho'
 
 function App() {
   return (
-    <>
+    <EstiloGlobal>
       <MainContainer>
         <Cabecalho />
         <Hero />
@@ -14,7 +14,7 @@ function App() {
           <ListaVagas />
         </Container>
       </MainContainer>
-    </>
+    </EstiloGlobal>
   )
 }
 
